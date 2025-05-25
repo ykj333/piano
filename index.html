@@ -390,7 +390,7 @@
 
         let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
         const payload = { contents: chatHistory };
-        const apiKey = "AIzaSyAuScsoPDZ9quZX3C8GUftn3cXGFtDwzkI"; // Canvas 환경에서 자동 제공
+        const apiKey = ""; // Canvas 환경에서 자동 제공
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
         try {
